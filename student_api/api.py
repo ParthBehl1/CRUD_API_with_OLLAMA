@@ -18,7 +18,6 @@ app = FastAPI(
 # Initialize the student store (in-memory or database)
 store = StudentStore()
 
-# Redirect root to /docs
 @app.get("/")
 async def redirect_to_docs():
     """Redirect to the FastAPI documentation"""
