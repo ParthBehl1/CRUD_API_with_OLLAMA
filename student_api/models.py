@@ -9,9 +9,9 @@ class StudentBase(BaseModel):
     class Config:
         json_schema_extra = {
             "example": {
-                "name": "John Doe",
+                "name": "Parth Behl",
                 "age": 20,
-                "email": "john.doe@example.com"
+                "email": "parth.behl@example.com"
             }
         }
 
